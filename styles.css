@@ -14,12 +14,12 @@ body {
 
 #head {
   padding-bottom:2vw;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 30px;
-  outline: 1px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  /*outline: 1px solid black;*/
   background-color: white;
-  background-image: url("head2.png");
+  background-image: url("h3.png");
   background-size: cover;
   border-radius: 4vh;
 }
@@ -34,7 +34,7 @@ body {
 #subtitle {
   margin-right: 50px;
   margin-left: 43px;
-  font-size: 30px;
+  font-size: 25px;
 }
 #subtitle2 {
   margin-right: 50px;
@@ -51,12 +51,12 @@ body {
 }
 
 #txt {
-  font-weight: 300;
-    margin-left: 130px;
-    margin-right: 130px;
+  font-weight: 100;
+    margin-left: 110px;
+    margin-right: 110px;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 21px;
+    font-size: 20px;
     padding: 50px;
     border-radius: 40px;
 }
@@ -81,22 +81,20 @@ body {
 }
 
 img {
-    max-block-size: 600px;
+    max-block-size: 650px;
     border-radius: 20px;
 }
 
 .gallery-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
-    display: flag;
+    display: flex;
     text-align: center;
-    flex-basis: 1 1 auto;
-    padding: 3vw;
+    padding: 2vw;
     border-radius: 20px;
-    justify-self: center;
-    justify-content: center;
     align-self: center;
-    align-items: center;
     margin: 0cm;
+    width: fit-content;
+    margin: auto;
 }
 
 .gallery-container1 {
